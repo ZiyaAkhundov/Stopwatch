@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(26, 41, 49);
+}
+.wrapper{
+    max-width: 350px;
+    margin: 200px auto 0 auto;
+}
+.wrapper > h2, .wrapper > .wrapper-body > p{
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
+.wrapper > h2{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper .wrapper-body >p{
+    font-size: 25px;
+}
+.wrapper > .wrapper-body > .buttons{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper > .wrapper-body > .buttons > button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(28, 94, 217);
+    color: white;
+    cursor: pointer;
+}
+.wrapper > .flaglist-main{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
